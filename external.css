@@ -1,0 +1,31 @@
+#div1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 2px solid black;
+    outline: 2px solid orange;
+}
+.div2{
+    width: 300px;
+    height: 200px;
+    background-color: yellow;
+    outline: blue;
+}
+#div1 nav{
+    height: 50px;
+    width: 150px;
+    background-color: yellowgreen;
+}
+#a1{
+    color: magenta; }
+#a2{
+    color: brown; }
+p+h1{
+    color: brown;
+}
+p h1{
+    color: green;
+}
+*{
+    color: blue;
+}
