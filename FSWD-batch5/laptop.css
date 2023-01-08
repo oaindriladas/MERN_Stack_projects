@@ -1,0 +1,27 @@
+body{
+    background-color: brown;
+    color:antiquewhite;
+    font-size: larger;
+}
+img{
+    width:50%;
+    height: 30%;
+}
+.container{
+    background-color: burlywood;
+    color:black;
+    display:flex;
+}
+.container>div{
+    width: auto;
+    margin: 20px; 
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.grid-container>div{
+    margin: 20px;
+    padding:20px;
+    border: 5px solid white;
+}

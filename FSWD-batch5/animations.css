@@ -29,9 +29,19 @@ p{
     animation-name: code;
     animation-duration: 4s;
     animation-delay: 3s;
-    animation-iteration-count: infinite;
+    /* animation-iteration-count: infinite; */
 }
 @keyframes code{
-    from{ width:100px}
+   from{ height: 200px;}
     to{ height:400px}
+}
+#gradient{
+    width:500px;
+    height: 200px;
+    background-image: linear-gradient(to right bottom,blue,yellow, red);
+}
+.radial{
+    width:500px;
+    height: 200px;
+    background-image: radial-gradient(yellow, violet, blue);
 }
