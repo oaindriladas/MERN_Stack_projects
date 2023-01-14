@@ -42,3 +42,21 @@ color: antiquewhite;
 .section-head{
     color: rgb(19, 114, 222);
 }
+.img-con{
+    background-image: url('../images/Gym\ Pool.jpg');
+    height: 50vh;
+    width: 20vw;
+}
+.img-con>p{
+    color: antiquewhite;
+}
+.img-contain{
+    display: flex;
+}
+.img-contain:nth-child(1){
+    background-image: url('../images/Gym\ Pool.jpg');
+}
+.img-contain:nth-child(2){
+    background-image: url('../images/Carnival.jpg');
+}
+
