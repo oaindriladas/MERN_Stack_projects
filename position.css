@@ -25,6 +25,7 @@ background-color: blueviolet;
     top:100px;
     position: static;
     background-color: blanchedalmond;
+    z-index: 3;
 }
 #fixed{
     position: fixed;
@@ -36,4 +37,5 @@ background-color: blueviolet;
     position: sticky;
     top: 600px;
     left: 20px;
+    z-index: -1;
 }
