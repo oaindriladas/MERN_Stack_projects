@@ -61,6 +61,9 @@ color: antiquewhite;
 .thumbnail:nth-child(4){ background-image: url('../images/Candlelight\ Dinner.jpg');}
 .thumbnail:nth-child(5){ background-image: url('../images/Lazy\ River.jpg');}
 
+header{
+    width: 100vw;
+}
 .row{
     height: 40vh;
     width: 80vw;
