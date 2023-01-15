@@ -3,13 +3,13 @@ body{
 }
 #header{
 background-image: url('../images/hero.jpg');
-height: 100%;
+height: 60vh;
 background-size: cover;
 color: antiquewhite;
 }
 .overlay{
     width: auto;
-    height: 400px;
+    height:60vh;
     background-color: black;
     opacity: 0.7;
     z-index:-4;
@@ -42,21 +42,30 @@ color: antiquewhite;
 .section-head{
     color: rgb(19, 114, 222);
 }
-.img-con{
-    background-image: url('../images/Gym\ Pool.jpg');
-    height: 50vh;
-    width: 20vw;
-}
-.img-con>p{
-    color: antiquewhite;
-}
 .img-contain{
     display: flex;
+    height: 40vh;
+    width: 100vw;
 }
-.img-contain:nth-child(1){
-    background-image: url('../images/Gym\ Pool.jpg');
+.thumbnail{
+    width: 18%;
+    background-size: cover;
 }
-.img-contain:nth-child(2){
-    background-image: url('../images/Carnival.jpg');
+.thumbnail p{
+    color:antiquewhite;
+    text-align: center;
 }
+.thumbnail:nth-child(1){ background-image: url('../images/Gym\ Pool.jpg');}
+.thumbnail:nth-child(2){ background-image: url('../images/Carnival.jpg');}
+.thumbnail:nth-child(3){ background-image: url('../images/Cooking\ with\ chef.jpg');}
+.thumbnail:nth-child(4){ background-image: url('../images/Candlelight\ Dinner.jpg');}
+.thumbnail:nth-child(5){ background-image: url('../images/Lazy\ River.jpg');}
 
+.row{
+    height: 40vh;
+    width: 80vw;
+    column-gap: 20px;
+}
+.row .col{
+    padding: 20px;
+}
