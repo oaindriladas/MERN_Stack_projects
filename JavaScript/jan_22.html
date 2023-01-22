@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1>Welcome to Javascript</h1>
+    <p id="p-name"></p>
+ <script>
+// alert("Welcome to the page!");
+// var name = prompt("enter your name");
+// var l_name= prompt("enter last name");
+// confirm("Do you wish to proceed?");
+// var a;
+// var b=90;
+// var flag= 100; //boolean will take 2 values true/false
+// console.log(a);
+// console.log(b);
+// console.log(flag);
+// document.getElementById('p-name').innerText="<b>"+name+" "+l_name+"</b>";
+// document.write("The last name is "+b+flag);
+// document.write("<br>The addition is "+(b+flag));
+// const num1=1000;
+// //num1=900;
+// document.write("const is "+num1)
+// let num2;
+// num2=9000;
+// num2=90000;
+// document.write('let is '+num2);
+// document.writeln('<br>addition is : '+(num1+num2));
+var array=[1,2,3,4];
+console.log(array);
+var person={name: "Biplab", age:21};
+console.log(person.name);
+var student= person;
+console.log(student.name);
+person.name="biplab sharma";
+console.log(student.name); //copy by reference
+var num1=90;
+var num2=num1;
+console.log("copied value: "+num2);
+num1=9000;
+console.log("copied value: "+num2);
+console.log("changed value: "+num1); //copy by value
+document.write("<br>Addition is "+(num1+num2)); //num1 & num2 is an operand
+document.write("<br>Subtraction is "+(num1-num2)); //binary operators
+//multiplication
+document.write("<br>Division is "+(num1/num2)); //quotient
+document.write("<br>Modulo is "+(num1%num2)); //remainder
+//unary operators
+document.write("<br>Pre-increment: "+(++num1)); //pre-increment
+document.write("<br>Post-increment: "+(num1++));
+document.write("<br>Post-increment: "+(num1));
+document.write("<br>Pre-decrement: "+(--num1)); //pre-decrement operator
+num1+=100; //9101
+document.write("<br>Assignment: "+num1);
+var s=3;
+s**=3; //27
+document.write("<br>cube is : "+s);
+// = == ===
+if(num1>s)
+document.write("num1 is greater than s");
+else
+document.write("s is greater than num1");
+
+if(num1<s) //true
+{
+    document.write("num1 is greater");
+    console.log("num1 is greater");
+}
+else
+{
+    document.write("num1 is greater than s");
+    console.log("num1 is greater than s");
+}
+ // && || !
+ let a=10, b=20, c=30;
+ if(a>b && a>c)  // true && true
+ console.log("a is the greatest of all!")
+ else if(b>a && b>c)
+    console.log("b is the greatest of all!");
+    else
+    console.log("c is the greatest of all!");
+ </script>   
+</body>
+</html>
