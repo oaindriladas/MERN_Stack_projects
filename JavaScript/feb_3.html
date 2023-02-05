@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML DOM manipulation</title>
+</head>
+<body>
+    <div id="div-container">
+        Welcome to JavaScript!
+    </div>
+    <p id="para-1" ondblclick="alert('Welcome!')">HTML changes displayed!</p>
+    <div>
+        <input type="button" value="Submit" onclick="display()">
+    </div>
+    <script>
+         function change(){
+        document.getElementById('para-1').style.color='red';
+        }
+        function display()
+        {
+        alert("button is clicked!");
+        document.getElementById('div-container').innerHTML="<h1>Clicked!</h1>";
+        document.getElementById('div-container').style.backgroundColor='yellow';
+        document.getElementById('para-1').style.visibility='hidden';
+        }
+       
+    </script>
+</body>
+</html>
