@@ -1,0 +1,34 @@
+body{
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: gold;
+    text-align: center;
+    box-sizing: border-box;
+}
+#cityinput{
+    height: 10%;
+    width: 20%;
+    color: goldenrod;
+    font-size: 1.25rem;
+}
+#btn{
+    background-color: gold;
+    color: black;
+    font-size: 1.25rem;
+    margin-left: 30px;
+}
+#input{
+    background-image: url('./dark_bg.jpg');
+    background-size: cover;
+    width: 80vw;
+    height: 40vh;
+    padding:20px;
+}
+#output{
+    background-color: rgba(128, 128, 128, 0.669);
+    color: antiquewhite;
+    width: 80vw;
+    height: 40vh;
+    padding:20px
+}
