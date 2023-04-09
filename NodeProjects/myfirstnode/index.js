@@ -15,3 +15,12 @@ response.end();
 app.get('/aboutus',(request,response)=>{
     response.send("<b>About us</b>");
 })
+
+app.get('/contact',(request,response)=>{
+response.sendFile(__dirname+'/test.html');
+})
+
+app.post('/contact',(request,response)=>{
+    response.send("Details captured!")
+})
+
