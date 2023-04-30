@@ -1,0 +1,20 @@
+{
+  "name": "mongodbproject",
+  "version": "1.0.0",
+  "description": "mongodb connection with Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oaindriladas/FSWD05/tree/main/NodeProjects"
+  },
+  "author": "Oaindrila",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.0"
+  }
+}
